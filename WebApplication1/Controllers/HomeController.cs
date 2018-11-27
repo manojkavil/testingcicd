@@ -11,7 +11,8 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         public IActionResult Index()
-        {            
+        {
+            var inx = 10 / 0;
             return View();
         }
 

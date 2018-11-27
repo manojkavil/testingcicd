@@ -12,6 +12,7 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
+            var inx = 10 / 0;
             return View();
         }
 
